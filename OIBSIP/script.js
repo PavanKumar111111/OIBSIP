@@ -1,5 +1,5 @@
 const display= document.getElementById('display');
-const buttons= document.getElementById('botton');
+const buttons= document.querySelectorAll('button');
 let currentInput='';
 let firstOperand=null;
 let operator='';
@@ -34,7 +34,7 @@ function handleInput(value)
             operator=value;
             resetDisplay=true;
         }else if(operator){
-            firstOperand=calculate(firstOperand,operator,parseFloatloat(currentinput));
+            firstOperand=calculate(firstOperand,operator,parseFloatloat(currentInput));
             operator=value;
             updateDisplay(firstOperand);
             resetDisplay=true;

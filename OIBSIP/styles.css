@@ -50,7 +50,7 @@ button.operator{
     color: white;
 }
 button.operator:hover{
-    background-color: #74bdda;
+    background-color: #1f10c4;
 }
 button#equals{
     grid-column: span 4;
@@ -58,12 +58,12 @@ button#equals{
     color: white;
 }
 button#equals:hover{
-    background-color: aquamarine;
+    background-color: #1f10c4;
 }
 button#clear{
     background-color: #ff4d4d;
     color: white;
 }
 button#clear:hover{
-    background-color: #74bdda;
+    background-color: rgb(210, 158, 62);
 }
